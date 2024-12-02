@@ -4,6 +4,8 @@
   inputs = { };
 
   outputs = { self, ... }: {
-    path = ./.; # Uses local directory
+    wallpapers = {
+      path = ./.; # Uses local directory
+    };
   };
 }
